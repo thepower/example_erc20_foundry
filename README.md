@@ -1,8 +1,21 @@
 # example of deploying a erc20 token using foundry
 
+install foundry https://book.getfoundry.sh/getting-started/installation#using-foundryup
+
+```
+curl -L https://foundry.paradigm.xyz | bash
+```
+
+clone this repository and initialize submodules
+
 ```
 git submodule init
 git submodule update
+```
+
+generate new key for deployment
+
+```
 cast wallet new
 ```
 
