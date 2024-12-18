@@ -35,3 +35,12 @@ bytes format (0x + 40 characters).
 ```
 sh deploy.sh
 ```
+
+Int this example ERC20 token allows minting for everybody. To mint tokens use the following command:
+
+
+```
+cast send --private-key=$DEVNET_PRIVATE_KEY --legacy --rpc-url https://c3n1.thepower.io:1446/jsonrpc  <MyToken contract address> "mint(address,uint256)" <Your wallet address> 400000000000000000000
+```
+
+
